@@ -1,6 +1,3 @@
-Here’s a README content template for your **Campus Hub** project:
-
-```markdown
 # Campus Hub
 
 **Campus Hub** is a platform designed to help students make the most of their campus life by offering essential services and real-time data. The platform provides features like skill exchange, study room booking, event tracking, and crowd density monitoring for common campus areas.
