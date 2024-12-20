@@ -2,20 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Root Variables for Background and Foreground Colors */
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
+/* Global Body Styling with Custom Colors */
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans, Arial, Helvetica, sans-serif);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+/* Tailwind Dark Mode Support */
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+/* Customize Links */
+a {
+  color: var(--foreground);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Adjustments for specific components or classes can go here */
