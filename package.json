@@ -9,13 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.20",
     "chart.js": "^4.4.7",
     "firebase": "^11.1.0",
-    "next": "15.1.2",
+    "leaflet": "^1.9.4",
+    "next": "^15.1.2",
     "react": "^19.0.0",
     "react-calendar": "^5.1.0",
     "react-dom": "^19.0.0",
+    "react-leaflet": "^5.0.0",
     "rm": "^0.1.8",
     "socket.io": "^4.8.1"
   },
@@ -24,6 +25,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.20",
     "eslint": "^9",
     "eslint-config-next": "15.1.2",
     "postcss": "^8.4.49",
